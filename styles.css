@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html,
@@ -33,6 +34,7 @@ input {
 	width: 235px;
 	height: 50px;
 	margin: 5px;
+	padding: 3px 5px;
 	border: solid 1px #ddd;
 }
 button {
