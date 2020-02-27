@@ -4,31 +4,52 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Calculadora JS</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<main>
 			<div>
+				<h1>CalculadoraJS</h1>
 				<form>
-					<input type="text" />
+					<div>
+						<input type="text" />
+					</div>
 
-					<button type="button" data-js="buttons-numbers" value="0">0</button>
-					<button type="button" data-js="buttons-numbers" value="1">1</button>
-					<button type="button" data-js="buttons-numbers" value="2">2</button>
-					<button type="button" data-js="buttons-numbers" value="3">3</button>
-					<button type="button" data-js="buttons-numbers" value="4">4</button>
-					<button type="button" data-js="buttons-numbers" value="5">5</button>
-					<button type="button" data-js="buttons-numbers" value="6">6</button>
-					<button type="button" data-js="buttons-numbers" value="7">7</button>
-					<button type="button" data-js="buttons-numbers" value="8">8</button>
-					<button type="button" data-js="buttons-numbers" value="9">9</button>
+					<div class="mainButtons" style="float: left">
+						<button type="button" data-js="button-numbers" value="7">7</button>
+						<button type="button" data-js="button-numbers" value="8">8</button>
+						<button type="button" data-js="button-numbers" value="9">9</button>
+						<br />
+						<button type="button" data-js="button-numbers" value="4">4</button>
+						<button type="button" data-js="button-numbers" value="5">5</button>
+						<button type="button" data-js="button-numbers" value="6">6</button>
+						<br />
+						<button type="button" data-js="button-numbers" value="1">1</button>
+						<button type="button" data-js="button-numbers" value="2">2</button>
+						<button type="button" data-js="button-numbers" value="3">3</button>
+						<br />
+						<button type="button" data-js="button-ce" value="ce">ce</button>
+						<button type="button" data-js="button-numbers" value="0">0</button>
+						<button type="button" data-js="button-equal" value="=">=</button>
+					</div>
 
-					<button type="button" data-js="buttons-operator" value="+">+</button>
-					<button type="button" data-js="buttons-operator" value="-">-</button>
-					<button type="button" data-js="buttons-operator" value="*">*</button>
-					<button type="button" data-js="buttons-operator" value="/">/</button>
-
-					<button type="button" data-js="buttons-equal" value="=">=</button>
-					<button type="button" data-js="buttons-ce" value="ce">ce</button>
+					<div class="operatorButtons" style="float: left">
+						<button type="button" data-js="button-operator" value="÷">
+							÷
+						</button>
+						<br />
+						<button type="button" data-js="button-operator" value="x">
+							x
+						</button>
+						<br />
+						<button type="button" data-js="button-operator" value="-">
+							-
+						</button>
+						<br />
+						<button type="button" data-js="button-operator" value="+">
+							+
+						</button>
+					</div>
 				</form>
 			</div>
 		</main>
